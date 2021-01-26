@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Puzzle Star Wars</title>
+    <style>
+      .container {
+        margin: auto;
+        width: 500px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas:
+          "photo12 photo10 photo10"
+          "photo9 photo8 photo7"
+          "photo9 photo5 photo4"
+          "photo3 photo2 photo1";
+      }
+
+      .img1 {
+        max-width: 100%;
+        grid-area: photo1;
+      }
+
+      .img2 {
+        width: 100%;
+        grid-area: photo2;
+      }
+
+      .img3 {
+        width: 100%;
+        grid-area: photo3;
+      }
+
+      .img4 {
+        width: 100%;
+        grid-area: photo4;
+      }
+
+      .img5 {
+        width: 100%;
+        grid-area: photo5;
+      }
+
+      .img12 {
+        width: 100%;
+        grid-area: photo12;
+      }
+
+      .img7 {
+        width: 100%;
+        grid-area: photo7;
+      }
+
+      .img8 {
+        width: 100%;
+        grid-area: photo8;
+      }
+
+      .img9 {
+        width: 100%;
+        grid-area: photo9;
+      }
+
+      .img10 {
+        width: 100%;
+        grid-area: photo10;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img class="img12" src="./img_2/12.jpg" alt="" />
+      <img class="img10" src="./img_2/10.jpg" alt="" />
+      <img class="img9" src="./img_2/9.jpg" alt="" />
+      <img class="img8" src="./img_2/8.jpg" alt="" />
+      <img class="img4" src="./img_2/4.jpg" alt="" />
+      <img class="img5" src="./img_2/5.jpg" alt="" />
+      <img class="img7" src="./img_2/7.jpg" alt="" />
+      <img class="img3" src="./img_2/3.jpg" alt="" />
+      <img class="img2" src="./img_2/2.jpg" alt="" />
+      <img class="img1" src="./img_2/1.jpg" alt="" />
+    </div>
+  </body>
+</html>
